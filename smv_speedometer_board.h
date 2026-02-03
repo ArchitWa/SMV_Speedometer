@@ -17,7 +17,7 @@
 #define D4_OFF  HAL_GPIO_WritePin(Digit_4_GPIO_Port, Digit_4_Pin, GPIO_PIN_SET)
 
 /* Decimal point */
-#define DP_ON   HAL_GPIO_WritePin(DP_GPIO_Port, DP_Pin, GPIO_PIN_RESET)
-#define DP_OFF  HAL_GPIO_WritePin(DP_GPIO_Port, DP_Pin, GPIO_PIN_SET)
+#define DP_ON  HAL_GPIO_WritePin(DP_GPIO_Port, DP_Pin, GPIO_PIN_SET)
+#define DP_OFF   HAL_GPIO_WritePin(DP_GPIO_Port, DP_Pin, GPIO_PIN_RESET)
 
 #endif
